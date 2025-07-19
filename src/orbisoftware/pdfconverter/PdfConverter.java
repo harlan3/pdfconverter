@@ -114,7 +114,7 @@ public class PdfConverter {
 				float textX = 50;
 
 				contentStream.beginText();
-				contentStream.setFont(PDType1Font.HELVETICA, 12.0f);
+				contentStream.setFont(PDType1Font.HELVETICA, 1.0f);
 				contentStream.appendRawCommands("3 Tr\n"); // make text invisible
 
 				List<String> lines = Files
